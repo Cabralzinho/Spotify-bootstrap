@@ -169,10 +169,10 @@ h2, h3 {
     #servicos {
         background: none;
     }
-    #servicos h2, #servicos h3 {
-        color: #fc6af9;
+    #servicos h3 {
+        color: aquamarine;
     }
-    #servicos p {
+    #servicos p, #servicos h2 {
         color: white;
     }
     footer {
