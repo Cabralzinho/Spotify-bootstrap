@@ -162,7 +162,9 @@ h2, h3 {
     .btn-custom {
         margin: 10px 15px;
         padding: 10px;
-        font-size: 17px;
+    }
+    #home a {
+        font-size: 13px;
     }
     #servicos {
         background: none;
