@@ -159,6 +159,11 @@ h2, h3 {
 }
 
 @media (max-width: 575.98px) {
+    h2, h3, p {
+        display:flex;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
     .btn-custom {
         margin: 10px 15px;
         padding: 10px;
@@ -168,6 +173,9 @@ h2, h3 {
     }
     #servicos {
         background: none;
+    }
+    #servicos h2 {
+        font-size: 2em;
     }
     #servicos h3 {
         color: aquamarine;
