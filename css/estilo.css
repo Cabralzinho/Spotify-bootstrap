@@ -205,16 +205,21 @@ h2, h3 {
     h1 {
         font-size: 3em;
     }
+    h2, h3, p {
+        display:flex;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
     .btn-custom {
         margin: 10px 15px;
     }
     #servicos {
         background: none;
     }
-    #servicos h2, #servicos h3 {
-        color: #fc6af9;
+    #servicos h3 {
+        color: aquamarine;
     }
-    #servicos p {
+    #servicos p, #servicos h2 {
         color: white;
     }
     footer {
