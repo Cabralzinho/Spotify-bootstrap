@@ -176,15 +176,17 @@ h2, h3 {
     #servicos {
         background: none;
     }
-    #servicos h2 {
+    #servicos h2, #recursos h2 {
         font-size: 2em;
     }
-    #servicos h3 {
+    #servicos h3, #recursos h3 {
+        font-size: 1.5em;
         color: aquamarine;
     }
     #servicos p, #servicos h2 {
         color: white;
     }
+    
     footer {
         padding: 20px;
     }
@@ -219,7 +221,11 @@ h2, h3 {
     #servicos {
         background: none;
     }
-    #servicos h3 {
+    #servicos h2, #recursos h2 {
+        font-size: 2em;
+    }
+    #servicos h3, #recursos h3 {
+        font-size: 1.5em;
         color: aquamarine;
     }
     #servicos p, #servicos h2 {
