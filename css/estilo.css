@@ -162,8 +162,10 @@ h2, h3 {
     h2, h3, p {
         display:flex;
         justify-content: center;
+        text-align: center;
         padding-bottom: 5px;
     }
+
     .btn-custom {
         margin: 10px 15px;
         padding: 10px;
@@ -208,6 +210,7 @@ h2, h3 {
     h2, h3, p {
         display:flex;
         justify-content: center;
+        text-align: center;
         padding-bottom: 5px;
     }
     .btn-custom {
